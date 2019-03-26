@@ -1,8 +1,6 @@
-document.getElementById('main').innerHTML = "This was rendered by JS..."
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-let i = 0;
+import App from './App';
 
-setInterval(() => {
-  i += 1;
-  document.getElementById('main').innerHTML = `This was rendered by JS... ${i}`;
-}, 1000)
+ReactDOM.render(<App />, document.getElementById('main'));
