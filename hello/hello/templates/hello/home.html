@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,5 +9,7 @@
   Hello, this is the Django-rendered page.
 
   <main id="main" />
+
+  <script type="text/javascript" src="{% static 'hello/dist/bundle.js' %}"></script>
 </body>
 </html>
