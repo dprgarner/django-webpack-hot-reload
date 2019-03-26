@@ -1,0 +1,3 @@
+# Django + Webpack hot reloading
+
+It sort-of works. TODO: CSS, redux, sagas, other static assets...
